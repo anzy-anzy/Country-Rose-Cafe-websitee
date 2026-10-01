@@ -1,0 +1,2 @@
+Put owner-approved photos here: hero.jpg, breakfast.jpg, lunch.jpg, restaurant.jpg, country-breakfast.jpg,
+gallery/lunch-burger.jpg, gallery/omelet.jpg, gallery/dining-room.jpg, gallery/gift-counter.jpg, menu/<item>.jpg, logo.png
