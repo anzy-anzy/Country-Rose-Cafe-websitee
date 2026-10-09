@@ -139,7 +139,9 @@ button { cursor: pointer; }
 .nav-shell.scrolled .nav { background: rgb(251 245 236 / .92); box-shadow: 0 0 0 1px var(--line), 0 18px 40px -22px rgb(36 27 24 / .6); }
 .brand { display: flex; align-items: center; gap: .65rem; text-decoration: none; min-width: 0; }
 .brand-mark { width: 2.6rem; height: 2.6rem; flex-shrink: 0; transition: transform .6s var(--ease); }
+.brand-mark-img { height: 2.9rem; width: auto; flex-shrink: 0; object-fit: contain; transition: transform .6s var(--ease); }
 .brand:hover .brand-mark { transform: rotate(-12deg) scale(1.05); }
+.brand:hover .brand-mark-img { transform: scale(1.06); }
 .brand-name { display: block; font-family: var(--display); font-size: 1.2rem; font-weight: 600; line-height: 1; letter-spacing: -.02em; white-space: nowrap; }
 .brand-sub { display: block; margin-top: .22rem; font-size: .62rem; font-weight: 800; letter-spacing: .22em; text-transform: uppercase; color: var(--rose); white-space: nowrap; }
 .nav-links { display: none; gap: .15rem; }
@@ -175,6 +177,7 @@ button { cursor: pointer; }
   .nav { padding: 0 .35rem 0 .7rem; gap: .4rem; }
   .brand { gap: .5rem; }
   .brand-mark { width: 2.25rem; height: 2.25rem; }
+  .brand-mark-img { height: 2.4rem; }
   .brand-name { font-size: 1.08rem; }
   .brand-sub { font-size: .56rem; letter-spacing: .16em; }
   .nav-actions { gap: .15rem; }
@@ -257,9 +260,11 @@ button { cursor: pointer; }
 .collage .main { position: absolute; inset: 0 0 3rem 3.5rem; border-radius: var(--r-xl); box-shadow: var(--shadow-lg); transform: rotate(1.5deg); }
 .collage .main::after { content: ""; position: absolute; inset: 0; border-radius: inherit; box-shadow: inset 0 0 0 1px rgb(255 255 255 / .35); pointer-events: none; }
 .collage .inset { position: absolute; left: 0; bottom: 0; width: 44%; aspect-ratio: 4/5; border-radius: var(--r-lg); border: 6px solid var(--paper); box-shadow: var(--shadow-lg); transform: rotate(-4deg); }
-.collage .note { position: absolute; right: -.25rem; bottom: 1.25rem; transform: rotate(-3deg); padding: .8rem 1.1rem; border-radius: 1rem; background: var(--white); box-shadow: var(--shadow); max-width: 13rem; }
-.collage .note .script { display: block; font-size: 1.65rem; line-height: 1; color: var(--rose); }
-.collage .note small { display: block; margin-top: .25rem; font-size: .78rem; color: var(--ink-3); }
+.collage .note-photo { position: absolute; right: -.25rem; bottom: 1.25rem; width: 7rem; }
+.collage .note-photo .note-ph { aspect-ratio: 1/1; border-radius: var(--r-lg); border: 5px solid var(--paper); box-shadow: var(--shadow-lg); transform: rotate(3deg); }
+.collage .note-photo .note-cap { margin-top: .5rem; transform: rotate(-2deg); padding: .5rem .7rem; border-radius: .9rem; background: var(--white); box-shadow: var(--shadow); text-align: center; }
+.collage .note-photo .note-cap .script { display: block; font-size: 1.05rem; line-height: 1; color: var(--rose); }
+.collage .note-photo .note-cap small { display: block; margin-top: .15rem; font-size: .68rem; color: var(--ink-3); }
 .spin-badge { position: absolute; right: -1rem; top: -1.25rem; width: 8.5rem; height: 8.5rem; z-index: 2; }
 @media (min-width: 640px) { .spin-badge { width: 10rem; height: 10rem; } }
 .spin-badge .ring { position: absolute; inset: 0; animation: spin 22s linear infinite; }
@@ -267,7 +272,7 @@ button { cursor: pointer; }
 .spin-badge .core b { font-family: var(--display); font-size: 1.6rem; line-height: 1; font-weight: 600; }
 .spin-badge .core small { display: block; font-size: .56rem; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
 @keyframes spin { to { transform: rotate(360deg); } }
-@media (max-width: 639px) { .collage .note { display: none; } .collage .main { left: 1.5rem; } }
+@media (max-width: 639px) { .collage .note-photo { display: none; } .collage .main { left: 1.5rem; } }
 
 /* ---------- marquee ---------- */
 .marquee { position: relative; margin-top: clamp(3rem, 7vw, 5.5rem); padding-block: 1.1rem; background: var(--rose); color: var(--paper); transform: rotate(-1.2deg) scale(1.02); box-shadow: 0 20px 40px -24px rgb(109 26 41 / .8); overflow: hidden; }
