@@ -953,6 +953,12 @@ window.CRC_MENU = [
       "name": "Hot Wings Basket",
       "description": "6 seasoned hot wings fried to perfection. Served with your choice of one side.",
       "price": 1595
+     },
+     {
+      "id": "basket-style--chicken-strips-basket",
+      "name": "Chicken Strips Basket",
+      "description": "Golden fried chicken strips. Served with your choice of one side.",
+      "price": 1595
      }
     ]
    },
