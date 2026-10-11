@@ -622,7 +622,7 @@ mark { background: var(--butter-soft); color: inherit; border-radius: 4px; paddi
 /* ---------- Rosie assistant ---------- */
 .rosie-btn { position: fixed; right: 1rem; bottom: calc(5.4rem + env(safe-area-inset-bottom)); z-index: 60; display: flex; align-items: center; gap: .55rem; padding: .5rem 1.05rem .5rem .5rem; border: 0; border-radius: 999px; background: var(--white); color: var(--ink); font-weight: 800; font-size: .92rem; box-shadow: 0 0 0 1px var(--line), 0 16px 34px -14px rgb(36 27 24 / .55); transition: transform .35s var(--ease); }
 .rosie-btn:hover { transform: translateY(-3px); }
-.rosie-btn .av { width: 2.4rem; height: 2.4rem; }
+.rosie-btn .av { width: 2.4rem; height: 2.4rem; object-fit: contain; }
 .rosie-btn .pulse { position: absolute; left: .5rem; top: .5rem; width: 2.4rem; height: 2.4rem; border-radius: 50%; box-shadow: 0 0 0 0 rgb(142 36 54 / .5); animation: pulse 2.6s infinite; pointer-events: none; }
 @keyframes pulse { 70% { box-shadow: 0 0 0 14px rgb(142 36 54 / 0); } 100% { box-shadow: 0 0 0 0 rgb(142 36 54 / 0); } }
 @media (min-width: 1080px) { .rosie-btn { bottom: 1.5rem; right: 1.5rem; } }
@@ -631,7 +631,7 @@ mark { background: var(--butter-soft); color: inherit; border-radius: 4px; paddi
 .rosie[hidden] { display: none; }
 @media (min-width: 1080px) { .rosie { right: 1.5rem; bottom: 1.5rem; } }
 .rosie-head { display: flex; align-items: center; gap: .75rem; padding: .9rem 1rem; background: var(--espresso); color: var(--paper); }
-.rosie-head .av { width: 2.5rem; height: 2.5rem; }
+.rosie-head .av { width: 2.5rem; height: 2.5rem; object-fit: contain; }
 .rosie-head b { display: block; font-family: var(--display); font-size: 1.2rem; font-weight: 600; line-height: 1.1; }
 .rosie-head small { font-size: .74rem; color: rgb(251 245 236 / .65); }
 .rosie-head .icon-btn { margin-left: auto; color: var(--paper); }

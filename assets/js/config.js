@@ -29,7 +29,7 @@ window.CRC_CONFIG = {
   hoursVerified: true,
   hours: [
     { day: "Monday", hours: "7:00 AM – 2:00 PM" }, { day: "Tuesday", hours: "7:00 AM – 2:00 PM" }, { day: "Wednesday", hours: "7:00 AM – 2:00 PM" },
-    { day: "Thursday", hours: "7:00 AM – 2:00 PM" }, { day: "Friday", hours: "7:00 AM – 2:00 PM" }, { day: "Saturday", hours: "7:00 AM – 2:00 PM" }, { day: "Sunday", hours: "Closed" },
+    { day: "Thursday", hours: "7:00 AM – 2:00 PM" }, { day: "Friday", hours: "7:00 AM – 2:00 PM" }, { day: "Saturday", hours: "7:00 AM – 2:00 PM" }, { day: "Sunday", hours: "7:00 AM – 2:00 PM" },
   ],
 
   /* Language shown on first visit: "en" or "es". Visitors can switch with the EN | ES button. */
