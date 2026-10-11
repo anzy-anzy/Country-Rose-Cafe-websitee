@@ -102,7 +102,7 @@ def head(title, desc, page, canon):
 <link rel="stylesheet" href="assets/css/styles.css">
 <script>document.documentElement.classList.add("js")</script>
 <script type="application/ld+json">
-{{"@context":"https://schema.org","@type":"Restaurant","name":"Country Rose Cafe","description":"Breakfast and lunch in a cozy, easygoing atmosphere, with a unique gift counter.","telephone":"+18316350252","url":"https://www.example.com/","image":["{TOAST}/20220129.jpg","{TOAST}/20231112.jpg"],"address":{{"@type":"PostalAddress","streetAddress":"756 San Benito Street","addressLocality":"Hollister","addressRegion":"CA","postalCode":"95023","addressCountry":"US"}},"servesCuisine":["American","Breakfast","Lunch"],"hasMenu":"https://www.example.com/menu.html","foundingDate":"2002","acceptsReservations":false,"sameAs":["{FB}"],"potentialAction":{{"@type":"OrderAction","target":"{TOAST_ORDER}"}}}}
+{{"@context":"https://schema.org","@type":"Restaurant","name":"Country Rose Cafe","description":"Breakfast and lunch in a cozy, easygoing atmosphere, with a unique gift counter.","telephone":"+18316350252","url":"https://www.example.com/","image":["{TOAST}/20220129.jpg","{TOAST}/20231112.jpg"],"address":{{"@type":"PostalAddress","streetAddress":"756 San Benito Street","addressLocality":"Hollister","addressRegion":"CA","postalCode":"95023","addressCountry":"US"}},"servesCuisine":["American","Breakfast","Lunch"],"hasMenu":"https://www.example.com/menu.html","foundingDate":"2002","acceptsReservations":false,"sameAs":["{FB}"]}}
 </script>
 </head>
 <body data-page="{page}">
@@ -179,7 +179,7 @@ FOOT = f"""</main>
 
 VISIT = f"""<section id="visit" class="section" aria-labelledby="visit-title">
   <div class="wrap">
-    <div class="head-row reveal"><div><span class="kicker">Visit us</span><h2 id="visit-title" class="display-lg">Come as you are.<br><span class="italic rose">Leave full.</span></h2></div>
+    <div class="head-row reveal"><div><span class="kicker">Visit us</span><h2 id="visit-title" class="display-lg">Stop by hungry.<br><span class="italic rose">Leave happy.</span></h2></div>
       <div class="btn-row"><a class="btn btn-dark" href="{DIR}" {NT}>{I["dir"]} Get Directions{SRN}</a><a class="btn btn-line" href="{TEL}">{I["phone"]} Call</a></div></div>
     <div class="visit">
       <div class="visit-card reveal">
@@ -249,7 +249,7 @@ index = head("Country Rose Cafe | Breakfast &amp; Lunch in Hollister, CA",
     <div>
       <p class="hero-eyebrow reveal"><span class="dot">Since 2002</span> Breakfast &amp; lunch · Hollister, CA</p>
       <h1 id="hero-title" class="reveal" style="--d:.05s"><span class="line">Country</span><span class="line"><span class="flourish">Rose{FLOURISH}</span> <span class="cafe">Cafe</span></span></h1>
-      <p class="lede reveal" style="--d:.12s"><span class="script" style="font-size:1.6em;color:var(--rose);line-height:1">A taste of home.</span><br>Join us for breakfast and lunch in a cozy, easygoing atmosphere — American eats, big plates, and a unique gift counter. <span class="rot-line">Come in for <span class="rotator" aria-hidden="true"><span>country cakes.</span><span>a John Wayne omelet.</span><span>Hector&#39;s chilaquiles.</span></span></span><span class="sr-only">breakfast and lunch.</span></p>
+      <p class="lede reveal" style="--d:.12s"><span class="script" style="font-size:1.6em;color:var(--rose);line-height:1">A taste of home.</span><br>Join us for breakfast and lunch in a cozy, easygoing atmosphere — American and Mexican-inspired eats, big plates, and a unique gift counter. <span class="rot-line">Come in for <span class="rotator" aria-hidden="true"><span>country cakes.</span><span>a John Wayne omelet.</span><span>Hector&#39;s chilaquiles.</span></span></span><span class="sr-only">breakfast and lunch.</span></p>
       <div class="btn-row reveal" style="--d:.18s">
         <a class="btn btn-rose" href="order.html">{I["bag"]} Order Online {I["arrow"]}</a>
         <a class="btn btn-line" href="menu.html">View the Menu</a>
@@ -319,7 +319,6 @@ index = head("Country Rose Cafe | Breakfast &amp; Lunch in Hollister, CA",
       <h2 id="story-title" class="display-lg" style="margin-top:.9rem">A taste of home, <span class="italic" style="color:var(--butter)">one plate at a time.</span></h2>
       <div class="body"><p>Country Rose Cafe has been open since 2002, serving American breakfast and lunch in a cozy, easygoing atmosphere.</p><p>Along with the food, there&#39;s a gift counter with unique finds and special gifts — a little something extra to discover when you visit.</p></div>
       <div class="years"><b>20+</b><span>years as a Hollister breakfast favorite, as voted by residents</span></div>
-      <p class="note-box demo-only"><b>[PLACEHOLDER — VERIFY WITH RESTAURANT]</b> The owner&#39;s own story — who started the cafe, the meaning of the name, family history — goes here once provided.</p>
     </div>
   </div>
 </section>
@@ -330,7 +329,7 @@ index = head("Country Rose Cafe | Breakfast &amp; Lunch in Hollister, CA",
       <div><span class="kicker light">Order ahead</span><h2 id="order-title" class="display-lg" style="margin-top:.9rem">Hungry?<br><span class="italic">We&#39;ll get it started.</span></h2>
         <p class="lede">Pickup or delivery from the full breakfast &amp; lunch menu. Order online in a minute — or call and talk to a real person.</p>
         <div class="btn-row"><a class="btn btn-butter" href="order.html">{I["bag"]} Order Online {I["arrow"]}</a><a class="btn btn-ghost-light" href="{TEL}">{I["phone"]} Call to Order</a></div></div>
-      <div class="ticket"><span class="top">Call-in orders</span><a class="tel" href="{TEL}">{PHONE}</a><p class="small muted" style="margin-top:.5rem">756 San Benito Street, Hollister</p><hr><a class="ext link" href="{TOAST_ORDER}" {NT}>Prefer the current ordering page? {I["ext"]}{SRN}</a></div>
+      <div class="ticket"><span class="top">Call-in orders</span><a class="tel" href="{TEL}">{PHONE}</a><p class="small muted" style="margin-top:.5rem">756 San Benito Street, Hollister</p></div>
     </div>
   </div>
 </section>
@@ -386,7 +385,7 @@ order = head("Order Online — Pickup &amp; Delivery | Country Rose Cafe, Hollis
              "order", "order.html") + page_hero(
     "Pickup &amp; delivery", 'Order <span class="italic rose">Online</span>',
     "Build your order from the full menu, then tell us how you&#39;d like it. Prefer a real person? Call and we&#39;ll take it over the phone.",
-    f'<a class="btn btn-line" href="{TEL}">{I["phone"]} Call to Order</a><a class="btn btn-line" href="{TOAST_ORDER}" {NT}>Current ordering page {I["ext"]}{SRN}</a>',
+    f'<a class="btn btn-line" href="{TEL}">{I["phone"]} Call to Order</a>',
     f'<p class="notice demo-only reveal" style="margin-top:1.75rem;--d:.15s"><b>Demo ordering:</b> the cart and checkout fully work, but submissions aren&#39;t connected to the restaurant yet (set <code>orderFormEndpoint</code> in <code>assets/js/config.js</code>). No payment is collected. To order today, call {PHONE}.</p>') + f"""
 <div class="wrap order-page" style="padding-bottom:3rem">
   <div id="order-app" style="scroll-margin-top:7rem">
