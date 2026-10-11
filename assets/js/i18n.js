@@ -56,7 +56,7 @@
     "Since 2002": "Desde 2002",
     "Breakfast & lunch · Hollister, CA": "Desayuno y almuerzo · Hollister, CA",
     "A taste of home.": "Un sabor a hogar.",
-    "Join us for breakfast and lunch in a cozy, easygoing atmosphere — American eats, big plates, and a unique gift counter.": "Acompáñanos a desayunar y almorzar en un ambiente acogedor y relajado — comida americana, platos generosos y un mostrador de regalos único.",
+    "Join us for breakfast and lunch in a cozy, easygoing atmosphere — American and Mexican-inspired eats, big plates, and a unique gift counter.": "Acompáñanos a desayunar y almorzar en un ambiente acogedor y relajado — comida americana y de inspiración mexicana, platos generosos y un mostrador de regalos único.",
     "Come in for": "Ven por",
     "country cakes.": "unos hotcakes country.",
     "a John Wayne omelet.": "un omelet John Wayne.",
@@ -121,8 +121,6 @@
     "Country Rose Cafe has been open since 2002, serving American breakfast and lunch in a cozy, easygoing atmosphere.": "Country Rose Cafe abrió sus puertas en 2002 y sirve desayunos y almuerzos americanos en un ambiente acogedor y relajado.",
     "Along with the food, there's a gift counter with unique finds and special gifts — a little something extra to discover when you visit.": "Además de la comida, hay un mostrador de regalos con artículos únicos y detalles especiales — algo extra para descubrir en tu visita.",
     "years as a Hollister breakfast favorite, as voted by residents": "años como el desayuno favorito de Hollister, según sus residentes",
-    "[PLACEHOLDER — VERIFY WITH RESTAURANT]": "[PENDIENTE — VERIFICAR CON EL RESTAURANTE]",
-    "The owner's own story — who started the cafe, the meaning of the name, family history — goes here once provided.": "Aquí irá la historia del dueño — quién fundó el café, el significado del nombre, la historia familiar — cuando la compartan.",
 
     /* order CTA */
     "Hungry?": "¿Tienes hambre?",
@@ -131,7 +129,6 @@
     "Call to Order": "Llama para ordenar",
     "Call-in orders": "Pedidos por teléfono",
     "756 San Benito Street, Hollister": "756 San Benito Street, Hollister",
-    "Prefer the current ordering page?": "¿Prefieres la página de pedidos actual?",
 
     /* gallery */
     "Pull up": "Toma",
@@ -160,7 +157,8 @@
     /* visit */
     "Visit us": "Visítanos",
     "Come as you are.": "Ven tal como eres.",
-    "Leave full.": "Sal satisfecho.",
+    "Stop by hungry.": "Ven con hambre.",
+    "Leave happy.": "Vete feliz.",
     "Call": "Llamar",
     "Address": "Dirección",
     "Phone": "Teléfono",
@@ -260,7 +258,6 @@
     "Order": "Ordena",
     "Online": "en línea",
     "Build your order from the full menu, then tell us how you'd like it. Prefer a real person? Call and we'll take it over the phone.": "Arma tu pedido con todo el menú y dinos cómo lo quieres. ¿Prefieres hablar con una persona? Llama y tomamos tu pedido por teléfono.",
-    "Current ordering page": "Página de pedidos actual",
     "Demo ordering:": "Pedidos de demostración:",
     "the cart and checkout fully work, but submissions aren't connected to the restaurant yet (set": "el carrito y el pago funcionan por completo, pero los pedidos aún no llegan al restaurante (configura",
     "in": "en",
